@@ -1,5 +1,5 @@
-## Добро пожаловать в rsiot_lab
-![bug tracker logo](bugs.png)
+
+![bug tracker logo](logo.jpg)
 
 ## Планирование разработки
 
