@@ -1,0 +1,13 @@
+FROM python:latest
+
+RUN pip install Flask python-multipart uvicorn requests
+
+LABEL firstname="lastname"
+
+COPY clientUI.py ./
+
+COPY static ./static
+
+COPY templates ./templates
+
+CMD ["python", "./clientUI.py"]
